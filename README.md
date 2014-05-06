@@ -69,7 +69,8 @@ toMatch <- c("mean\\(\\)[-]", "std\\(\\)[-]")
 matches <- unique(grep(paste(toMatch,collapse="|"), features, value=TRUE))
 HAR_df1 <- cbind(HAR_df[,1:2], HAR_df[,matches]) ## Working file
 s <- split(HAR_df1, list(HAR_df1$ID, HAR_df1$Activity))
-Tidy_HAR <- sapply(s, function(x) colMeans(x[,matches]))
+Tidy_HARt <- sapply(s, function(x) colMeans(x[,matches]))
+Tidy_HAR <- data.frame(t(Tidy_HARt))
 ```
 
 ##(7) (Optional Step) Write tidy data by removing hashtags from following line:
