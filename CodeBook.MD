@@ -17,7 +17,9 @@ From herein, the tidied data set will be referred to as Tidy_HAR. The following 
 The data from the original file includes observations of 30 people performing six different activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while wearing a Samsung Galaxy S II. The accelerometer and gyroscope on the Samsung phone captured acceleration and velocity data over three axes. 
 
 #Variables and Observations
-Tidy_HAR has 48 observations of 180 variables. Each variable is named after the subject (denoted by X and a number) and activity performed by the subject. For example, the variable name for Subject 3 sitting is ‘X3.SITTING’. Observations (or row names) for each variable are as follows:
+Tidy_HAR has 48 variables and 180 observations. Each observation is identified by subject (denoted by ID number) and activity performed by the subject. For example, the row for Subject 3 sitting is ‘3.SITTING’. 
+
+Variable are as follows:
 
 	* 	tBodyAcc-mean()-X
 	* 	tBodyAcc-mean()-Y
