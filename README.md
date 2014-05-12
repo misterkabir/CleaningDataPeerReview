@@ -1,7 +1,7 @@
 CleaningDataPeerReview
 ======================
 
-This is a program created to tidy data for a class on Coursera. Data is sourced from www.smartlab.ws. Please see acknowledgements at the end of this document. 
+This is a program created to tidy data for a class on Coursera. Data is originally sourced from www.smartlab.ws and can be accessed here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Data was accessed on 27 April 2014. Please see acknowledgements at the end of this document. 
 
 ##(0) The tidy process requires the `Hmisc` and `plyr` package.
 
