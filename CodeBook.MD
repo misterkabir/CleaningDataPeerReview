@@ -19,7 +19,7 @@ The data from the original file includes observations of 30 people performing si
 #Variables and Observations
 Tidy_HAR has 48 variables and 180 observations. Each observation is identified by subject (denoted by ID number) and activity performed by the subject. For example, the row for Subject 3 sitting is ‘3.SITTING’. 
 
-Variable are as follows:
+Variables are as follows:
 
 	* 	tBodyAcc-mean()-X
 	* 	tBodyAcc-mean()-Y
